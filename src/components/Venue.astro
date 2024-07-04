@@ -1,0 +1,31 @@
+---
+import Container from "./Container.astro";
+---
+
+<Container>
+  <section id="venue" class="text-center space-y-4">
+    <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+      Venue
+    </h1>
+    <!-- address -->
+    <div class="text-center">
+      <p class="text-lg font-medium">
+        P. O, Fertilizer Nagar, Vigyan Bhavan, Vadodara, Gujarat 391750
+      </p>
+    </div>
+    <!-- maps iframe -->
+    <div class="w-full my-8 rounded-md">
+      <iframe
+        width="100%"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        class="overflow-hidden rounded-lg"
+        src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=+(GSFC%20University)&t=&z=16&ie=UTF8&iwloc=B&output=embed"
+        ><a href="https://www.gps.ie/">gps trackers</a></iframe
+      >
+    </div>
+  </section>
+</Container>
