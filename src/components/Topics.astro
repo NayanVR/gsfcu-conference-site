@@ -1,0 +1,46 @@
+---
+import Container from "./Container.astro";
+
+const TOPICS = [
+  {
+    name: "Topic 1",
+    description: "Description of topic 1",
+  },
+  {
+    name: "Topic 2",
+    description: "Description of topic 2",
+  },
+  {
+    name: "Topic 3",
+    description: "Description of topic 3",
+  },
+  {
+    name: "Topic 4",
+    description: "Description of topic 4",
+  },
+];
+---
+
+<Container>
+  <section id="topics" class="text-center space-y-4">
+    <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+      Topics
+    </h1>
+    <p class="text-lg font-medium">
+      The topics of the conference are as follows:
+    </p>
+
+    <!-- Represnt topics as list -->
+    <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+      {
+        TOPICS.map(({ name, description }) => (
+          <li class="py-4 sm:py-5 ">
+            <div class="flex items-center space-x-4">
+              {name} - {description}
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Container>

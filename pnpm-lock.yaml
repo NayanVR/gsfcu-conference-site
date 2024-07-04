@@ -10,7 +10,13 @@ importers:
     dependencies:
       astro:
         specifier: ^1.1.5
-        version: 1.9.2
+        version: 1.9.2(sass@1.77.6)
+      astro-tabs:
+        specifier: ^0.1.8
+        version: 0.1.8
+      sass:
+        specifier: ^1.77.6
+        version: 1.77.6
     devDependencies:
       '@astrojs/tailwind':
         specifier: ^1.0.0
@@ -355,6 +361,9 @@ packages:
   ast-types@0.14.2:
     resolution: {integrity: sha512-O0yuUDnZeQDL+ncNGlJ78BiO4jnYI3bvMsD5prT0/nsgijG/LpNBIr63gTjVTNsiGkgQhiyCShTgxt8oXOrklA==}
     engines: {node: '>=4'}
+
+  astro-tabs@0.1.8:
+    resolution: {integrity: sha512-lGgK/oqDiR9vT5LOGJX2+pBIgZ6HzzD84kJK58WSMxKuYBeprDRaCUOiu36JQ5+BxU14jj4gNuhzmRAOXGrEkQ==}
 
   astro@1.9.2:
     resolution: {integrity: sha512-L+Ma0eR0Aa6QZg7RF0lEs+106Ye1/zukvtq3KtsYIogAojltlwllwU9X5CwMBzFwA55NxpNp4gSRh5US/xb+8Q==}
@@ -925,6 +934,9 @@ packages:
 
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
+
+  immutable@4.3.6:
+    resolution: {integrity: sha512-Ju0+lEMyzMVZarkTn/gqRpdqd5dOPaz1mCZ0SH3JV6iFw81PldE/PEB1hWVEA288HPt4WXW8O7AWxB10M+03QQ==}
 
   import-meta-resolve@2.2.2:
     resolution: {integrity: sha512-f8KcQ1D80V7RnqVm+/lirO9zkOxjGxhaTC1IPrBGd3MEfNgmNG67tSUO9gTi2F3Blr2Az6g1vocaxzkVnWl9MA==}
@@ -1593,6 +1605,11 @@ packages:
 
   sass-formatter@0.7.9:
     resolution: {integrity: sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==}
+
+  sass@1.77.6:
+    resolution: {integrity: sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
 
   section-matter@1.0.0:
     resolution: {integrity: sha512-vfD3pmTzGpufjScBh50YHKzEu2lxBWhVEHsNGoEXmCmn2hKGfeNLYMzCJpe8cD7gqX7TJluOVpBkAequ6dgMmA==}
@@ -2446,7 +2463,9 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  astro@1.9.2:
+  astro-tabs@0.1.8: {}
+
+  astro@1.9.2(sass@1.77.6):
     dependencies:
       '@astrojs/compiler': 0.31.4
       '@astrojs/language-server': 0.28.3
@@ -2507,8 +2526,8 @@ snapshots:
       typescript: 5.5.3
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 3.2.10
-      vitefu: 0.2.5(vite@3.2.10)
+      vite: 3.2.10(sass@1.77.6)
+      vitefu: 0.2.5(vite@3.2.10(sass@1.77.6))
       yargs-parser: 21.1.1
       zod: 3.23.8
     transitivePeerDependencies:
@@ -3058,6 +3077,8 @@ snapshots:
   human-signals@3.0.1: {}
 
   ieee754@1.2.1: {}
+
+  immutable@4.3.6: {}
 
   import-meta-resolve@2.2.2: {}
 
@@ -3913,6 +3934,12 @@ snapshots:
     dependencies:
       suf-log: 2.5.3
 
+  sass@1.77.6:
+    dependencies:
+      chokidar: 3.6.0
+      immutable: 4.3.6
+      source-map-js: 1.2.0
+
   section-matter@1.0.0:
     dependencies:
       extend-shallow: 2.0.1
@@ -4216,7 +4243,7 @@ snapshots:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  vite@3.2.10:
+  vite@3.2.10(sass@1.77.6):
     dependencies:
       esbuild: 0.15.18
       postcss: 8.4.39
@@ -4224,10 +4251,11 @@ snapshots:
       rollup: 2.79.1
     optionalDependencies:
       fsevents: 2.3.3
+      sass: 1.77.6
 
-  vitefu@0.2.5(vite@3.2.10):
+  vitefu@0.2.5(vite@3.2.10(sass@1.77.6)):
     optionalDependencies:
-      vite: 3.2.10
+      vite: 3.2.10(sass@1.77.6)
 
   vscode-css-languageservice@6.3.0:
     dependencies:
