@@ -2,7 +2,11 @@
 import Container from "./Container.astro";
 ---
 
-<div class="relative" id="home">
+<div
+  class="relative"
+  style="background: url('/images/BG3.jpg'); background-size: cover; background-position: center;"
+  id="home"
+>
   <div
     aria-hidden="true"
     class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
@@ -17,25 +21,21 @@ import Container from "./Container.astro";
     </div>
   </div>
   <Container>
-    <div class="relative pt-36 ml-auto">
+    <div class="relative py-36 ml-auto">
       <div class="lg:w-2/3 text-center mx-auto">
         <p
           class="mt-8 text-white dark:text-white tracking-wider font-semibold md:text-lg lg:text-xl mb-8 bg-info hover:scale-110 hover:-rotate-3 transition-all inline-block rounded-lg px-6 py-2"
         >
           January 20-21, 2025
         </p>
-        <h1
-          class="text-gray-900 dark:text-white font-bold text-3xl md:text-5xl xl:text-5xl"
-        >
-          <span class="text-primary dark:text-white"
+        <h1 class="text-white font-bold text-3xl md:text-5xl xl:text-5xl">
+          <span class="text-info dark:text-white"
             >1st International Conference</span
           > on Interdisciplinary Horizons: Integrating AI in Science, Management,
           and Technology
         </h1>
 
-        <h1
-          class="text-primary dark:text-white text-3xl md:text-4xl xl:text-5xl my-16"
-        >
+        <h1 class="text-white text-3xl md:text-4xl xl:text-5xl my-16">
           ICON-AI-SMT'25
         </h1>
         <!-- Show the date -->
@@ -50,10 +50,9 @@ import Container from "./Container.astro";
           </a>
           <a
             href="#team"
-            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
           >
-            <span
-              class="relative text-base font-semibold text-primary dark:text-white"
+            <span class="relative text-base font-semibold text-white"
               >Meet the team</span
             >
           </a>
