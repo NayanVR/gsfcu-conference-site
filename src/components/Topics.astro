@@ -1,23 +1,62 @@
 ---
 import Container from "./Container.astro";
 
+// 5G and beyond networks
+// Big data and machine learning for networks
+// Cellular networks
+// Cloud computing/mobile cloud computing
+// Challenged Environments (underwater, underground)
+// Cross-layer optimization and control
+// Crowdsourcing
+// CubeSats
+// Cyber-physical systems
+// Datacenter networking
+// Dynamic spectrum sharing
+// Energy efficiency in networks
+// Edge and fog computing / networking
+// Fault tolerance, reliability and survivability
+// Information security and privacy
+// Information-centric networking
+// Interference management and mitigation
+// Internet of Things
+// Localization and location-based services
+// Medium access control
+// Mobile sensing and applications
+// Mobility management and models
+// Multimedia networking
+// Network security and privacy
+// Network virtualization
+// Optical networks
+// Overlay and peer-to-peer networks
+// Quality-of-service and resource management
+// Smart grid applications
+// Social computing and networks
+// Software-defined networking
+// Vehicular networks
+// Web applications and content distribution
+
 const TOPICS = [
-  {
-    name: "Topic 1",
-    description: "Description of topic 1",
-  },
-  {
-    name: "Topic 2",
-    description: "Description of topic 2",
-  },
-  {
-    name: "Topic 3",
-    description: "Description of topic 3",
-  },
-  {
-    name: "Topic 4",
-    description: "Description of topic 4",
-  },
+  "5G and beyond networks",
+  "Big data and machine learning for networks",
+  "Cellular networks",
+  "Cloud computing/mobile cloud computing",
+  "Challenged Environments (underwater, underground)",
+  "Cross-layer optimization and control",
+  "Crowdsourcing",
+  "CubeSats",
+  "Cyber-physical systems",
+  "Datacenter networking",
+  "Dynamic spectrum sharing",
+  "Energy efficiency in networks",
+  "Edge and fog computing / networking",
+  "Fault tolerance, reliability and survivability",
+  "Information security and privacy",
+  "Information-centric networking",
+  "Interference management and mitigation",
+  "Internet of Things",
+  "Localization and location-based services",
+  "Medium access control",
+  "Mobile sensing and applications",
 ];
 ---
 
@@ -33,11 +72,9 @@ const TOPICS = [
     <!-- Represnt topics as list -->
     <ul class="divide-y divide-gray-200 dark:divide-gray-700">
       {
-        TOPICS.map(({ name, description }) => (
-          <li class="py-4 sm:py-5 ">
-            <div class="flex items-center space-x-4">
-              {name} - {description}
-            </div>
+        TOPICS.map((topic) => (
+          <li class="py-2 sm:py-3 ">
+            <div class="flex items-center space-x-4">{topic}</div>
           </li>
         ))
       }
