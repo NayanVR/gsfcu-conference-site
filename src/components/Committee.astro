@@ -2,212 +2,104 @@
 import { Tabs } from "astro-tabs";
 import Container from "./Container.astro";
 
-const STEERING_COMMITTEE = [
+const CHIEF_PATRON = [
   {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
+    name: "Shri. P. K Taneja",
+    position: "Rtd. IAS",
   },
 ];
 
-const GENERAL_CHAIRS = [
+const ADVISORY_COMMITTEE = [];
+
+const TPC_COMMITTEE = [];
+
+const CONFERENCE_CHAIR = [
   {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
+    name: "Dr. G. R Sinha ",
+    position: "Provost",
   },
 ];
 
-const CONFERENCE_CHAIRS = [
+const CONVENOR = [
   {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
+    name: "Dr. Sanjukta Bose Goswami",
+    position: "Associate Dean, Chemical Engineering",
   },
 ];
 
-const PUBLICATION_CHAIRS = [
+const CO_CONVENOR = [
   {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
+    name: "Dr. Priya Goel",
+    position: "Assistant Professor, Chemistry",
   },
   {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
+    name: "Dr. Jahanvi Bansal",
+    position: "Assistant Professor",
   },
   {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
+    name: "Ms. Swati Saxena",
+    position: "Assistant Professor, Computer Science & Engineering",
   },
 ];
 
-const ADVISORY_COMMITTEE = [
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-];
-
-const EXECUTIVE_COMMITTEE = [
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-];
-
-const ORGANIZING_COMMITTEE = [
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-];
-
-const TECHNICAL_PROGRAM_COMMITTEE = [
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-  {
-    name: "Dr. John Doe",
-    position: "Vice Chairperson",
-  },
-];
+const ORGANIZING_COMMITTEE = [];
 ---
 
-<section id="commitee">
+<section id="committee">
   <Container>
     <h1
       class="text-4xl font-bold text-gray-800 dark:text-white md:text-5xl text-center mb-12"
       id="commitee"
     >
-      Commitee
+      Committee
     </h1>
+
     <Tabs class="w-full">
       <Fragment slot="tab-1">
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all rounded-l-lg"
         >
-          Steering Committee
+          Chief Patron
         </h2>
       </Fragment>
       <Fragment slot="tab-2">
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
-          General Chairs
+          Advisory Committee
         </h2>
       </Fragment>
       <Fragment slot="tab-3">
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
-          Conference Chairs
+          TPC Committee
         </h2>
       </Fragment>
       <Fragment slot="tab-4">
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
-          Publication Chairs
+          Conference Chair
         </h2>
       </Fragment>
       <Fragment slot="tab-5">
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
-          Advisory Committee
+          Convenor
         </h2>
       </Fragment>
       <Fragment slot="tab-6">
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
-          Executive Committee
+          Co-convenor
         </h2>
       </Fragment>
       <Fragment slot="tab-7">
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
-        >
-          Technical Program Committee
-        </h2>
-      </Fragment>
-      <Fragment slot="tab-8">
-        <h2
-          class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all rounded-r-lg"
         >
           Organizing Committee
         </h2>
@@ -215,11 +107,11 @@ const TECHNICAL_PROGRAM_COMMITTEE = [
 
       <Fragment slot="panel-1">
         <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
-          Steering Committee
+          Chief Patron
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
-            STEERING_COMMITTEE.map(({ name, position }) => (
+            CHIEF_PATRON.map(({ name, position }) => (
               <li class="py-4 sm:py-5">
                 <div class="flex items-center space-x-4">
                   <div class="flex-1 min-w-0">
@@ -237,75 +129,6 @@ const TECHNICAL_PROGRAM_COMMITTEE = [
         </ul>
       </Fragment>
       <Fragment slot="panel-2">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
-          General Chairs
-        </h3>
-        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-          {
-            GENERAL_CHAIRS.map(({ name, position }) => (
-              <li class="py-4 sm:py-5">
-                <div class="flex items-center space-x-4">
-                  <div class="flex-1 min-w-0">
-                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                      {name}
-                    </p>
-                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                      {position}
-                    </p>
-                  </div>
-                </div>
-              </li>
-            ))
-          }
-        </ul>
-      </Fragment>
-      <Fragment slot="panel-3">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
-          Conference Chairs
-        </h3>
-        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-          {
-            CONFERENCE_CHAIRS.map(({ name, position }) => (
-              <li class="py-4 sm:py-5">
-                <div class="flex items-center space-x-4">
-                  <div class="flex-1 min-w-0">
-                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                      {name}
-                    </p>
-                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                      {position}
-                    </p>
-                  </div>
-                </div>
-              </li>
-            ))
-          }
-        </ul>
-      </Fragment>
-      <Fragment slot="panel-4">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
-          Publication Chairs
-        </h3>
-        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-          {
-            PUBLICATION_CHAIRS.map(({ name, position }) => (
-              <li class="py-4 sm:py-5">
-                <div class="flex items-center space-x-4">
-                  <div class="flex-1 min-w-0">
-                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                      {name}
-                    </p>
-                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                      {position}
-                    </p>
-                  </div>
-                </div>
-              </li>
-            ))
-          }
-        </ul>
-      </Fragment>
-      <Fragment slot="panel-5">
         <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
           Advisory Committee
         </h3>
@@ -328,13 +151,78 @@ const TECHNICAL_PROGRAM_COMMITTEE = [
           }
         </ul>
       </Fragment>
-      <Fragment slot="panel-6">
+      <Fragment slot="panel-3">
         <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
-          Executive Committee
+          TPC Committee
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
-            EXECUTIVE_COMMITTEE.map(({ name, position }) => (
+            TPC_COMMITTEE.map(({ name, position }) => (
+              <li class="py-4 sm:py-5">
+                <div class="flex items-center space-x-4">
+                  <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      {name}
+                    </p>
+                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                      {position}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </Fragment>
+      <Fragment slot="panel-4">
+        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
+          Conference Chair
+        </h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            CONFERENCE_CHAIR.map(({ name, position }) => (
+              <li class="py-4 sm:py-5">
+                <div class="flex items-center space-x-4">
+                  <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      {name}
+                    </p>
+                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                      {position}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </Fragment>
+      <Fragment slot="panel-5">
+        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">Convenor</h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            CONVENOR.map(({ name, position }) => (
+              <li class="py-4 sm:py-5">
+                <div class="flex items-center space-x-4">
+                  <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      {name}
+                    </p>
+                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                      {position}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </Fragment>
+      <Fragment slot="panel-6">
+        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">Co-convenor</h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            CO_CONVENOR.map(({ name, position }) => (
               <li class="py-4 sm:py-5">
                 <div class="flex items-center space-x-4">
                   <div class="flex-1 min-w-0">
@@ -352,29 +240,6 @@ const TECHNICAL_PROGRAM_COMMITTEE = [
         </ul>
       </Fragment>
       <Fragment slot="panel-7">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
-          Technical Program Committee
-        </h3>
-        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-          {
-            TECHNICAL_PROGRAM_COMMITTEE.map(({ name, position }) => (
-              <li class="py-4 sm:py-5">
-                <div class="flex items-center space-x-4">
-                  <div class="flex-1 min-w-0">
-                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                      {name}
-                    </p>
-                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                      {position}
-                    </p>
-                  </div>
-                </div>
-              </li>
-            ))
-          }
-        </ul>
-      </Fragment>
-      <Fragment slot="panel-8">
         <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
           Organizing Committee
         </h3>
