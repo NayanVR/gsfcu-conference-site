@@ -3,8 +3,8 @@ import Container from "./Container.astro";
 ---
 
 <div
-  class="relative"
-  style="background: url('/images/BG3.jpg'); background-size: cover; background-position: center;"
+  class="relative overflow-hidden"
+  style="background: url('/images/BG4.jpeg'); background-size: cover; background-position: center;"
   id="home"
 >
   <div
@@ -20,29 +20,35 @@ import Container from "./Container.astro";
     >
     </div>
   </div>
+  <div class="blur-[106px] h-56 w-56 bg-black absolute bottom-0 left-0"></div>
+  <div class="blur-[106px] h-56 w-56 bg-black absolute bottom-0 right-0"></div>
   <Container>
     <div class="relative py-36 ml-auto">
       <div class="lg:w-2/3 text-center mx-auto">
         <p
           class="mt-8 text-white dark:text-white tracking-wider font-semibold md:text-lg lg:text-xl mb-8 bg-info hover:scale-110 hover:-rotate-3 transition-all inline-block rounded-lg px-6 py-2"
         >
-          January 20-21, 2025
+          January 20-21, 2025 - Vadodara, Gujarat, India
         </p>
-        <h1 class="text-white font-bold text-3xl md:text-5xl xl:text-5xl">
+        <h1
+          class="text-white font-bold text-3xl md:text-5xl xl:text-5xl drop-shadow-lg"
+        >
           <span class="text-info dark:text-white"
             >1st International Conference</span
           > on Interdisciplinary Horizons: Integrating AI in Science, Management,
           and Technology
         </h1>
 
-        <h1 class="text-white text-3xl md:text-4xl xl:text-5xl my-16">
+        <h1
+          class="text-white text-3xl md:text-4xl xl:text-5xl my-16 drop-shadow-md"
+        >
           ICON-AI-SMT'25
         </h1>
         <!-- Show the date -->
-        <div class="flex flex-wrap justify-center gap-y-4 gap-x-6">
+        <!-- <div class="flex flex-wrap justify-center gap-y-4 gap-x-6">
           <a
             href="#schedule"
-            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+            class="relative flex h-11 w-full items-center justify-center px-6 drop-shadow-md before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
           >
             <span class="relative text-base font-semibold text-white"
               >Schedule</span
@@ -50,13 +56,13 @@ import Container from "./Container.astro";
           </a>
           <a
             href="#team"
-            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+            class="relative flex h-11 w-full items-center justify-center px-6 drop-shadow-md before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/30 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
           >
             <span class="relative text-base font-semibold text-white"
               >Meet the team</span
             >
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </Container>
