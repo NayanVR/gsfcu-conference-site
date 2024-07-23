@@ -9,9 +9,55 @@ const CHIEF_PATRON = [
   },
 ];
 
-const ADVISORY_COMMITTEE = [];
+const ADVISORY_COMMITTEE = [
+  {
+    name: "Prof. Manoj Choudhary",
+    position: "Vice Chancellor, Gati Shakti Vishwavidyalaya (GSV)",
+  },
+  {
+    name: "Prof. Karuna Jain",
+    position: "Professor, I.I.T. Bombay",
+  },
+  {
+    name: "Prof. Humaira Nisar",
+    position: "Professor, University Tunku Abdul Rahman",
+  },
+  {
+    name: "Meenakshi D'Souza",
+    position: "Professor, IIIT Bangalore",
+  },
+  {
+    name: "Dr. Bhavesh N Gohil",
+    position: "Associate Professor,	SVNIT - Surat",
+  },
+  {
+    name: "Shri Ramesh Panchal",
+    position: "Registrar, GSFC University",
+  },
+  {
+    name: "Mr. Naren Acharaya",
+    position: "Director (Administration), GSFC University",
+  },
+  {
+    name: "Shri Mahesh Barot",
+    position: "Assistant Director (Admin) & Director-Campus, GSFC University",
+  },
+];
 
-const TPC_COMMITTEE = [];
+const TECHINCAL_PROGRAM_COMMITTEE = [
+  {
+    name: "Prof. Maulika Patel",
+    position: "Professor, GCET, VV Vidhyanagar",
+  },
+  {
+    name: "Amitabh Mishra",
+    position: "Associate Professor, University of West Florida",
+  },
+  {
+    name: "K. S. Kasiviswanathan",
+    position: "Associate Professor, Indian Institute of Technology Roorkee",
+  },
+];
 
 const CONFERENCE_CHAIR = [
   {
@@ -42,7 +88,32 @@ const CO_CONVENOR = [
   },
 ];
 
-const ORGANIZING_COMMITTEE = [];
+const ORGANIZING_COMMITTEE = [
+  {
+    name: "Shri Simon",
+    position: "",
+  },
+  {
+    name: "Ms. Mousam Patel",
+    position: "Assistant Professor - CSE, GSFC University",
+  },
+  {
+    name: "Ms. Archana Magre",
+    position: "Assistant Professor - CSE, GSFC University",
+  },
+  {
+    name: "Ms. Zalak Kansagara",
+    position: "Assistant Professor - CSE, GSFC University",
+  },
+  {
+    name: "Ms. Dharti Patel",
+    position: "Deputy Manager - Department of Facility, GSFC University",
+  },
+  {
+    name: "Ms. Sachiyanka Srivastava",
+    position: "Marketing & PR, GSFC University",
+  },
+];
 ---
 
 <section id="committee">
@@ -73,7 +144,7 @@ const ORGANIZING_COMMITTEE = [];
         <h2
           class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
-          TPC Committee
+          Technical Program Committee
         </h2>
       </Fragment>
       <Fragment slot="tab-4">
@@ -106,7 +177,7 @@ const ORGANIZING_COMMITTEE = [];
       </Fragment>
 
       <Fragment slot="panel-1">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
           Chief Patron
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
@@ -127,7 +198,7 @@ const ORGANIZING_COMMITTEE = [];
         </ul>
       </Fragment>
       <Fragment slot="panel-2">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
           Advisory Committee
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
@@ -148,12 +219,12 @@ const ORGANIZING_COMMITTEE = [];
         </ul>
       </Fragment>
       <Fragment slot="panel-3">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
-          TPC Committee
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
+          Technical Program Committee
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
-            TPC_COMMITTEE.map(({ name, position }) => (
+            TECHINCAL_PROGRAM_COMMITTEE.map(({ name, position }) => (
               <li class="py-4 sm:py-5">
                 <div class="flex flex-col items-center">
                   <p class="text-xl font-medium text-gray-900 dark:text-white">
@@ -169,7 +240,7 @@ const ORGANIZING_COMMITTEE = [];
         </ul>
       </Fragment>
       <Fragment slot="panel-4">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
           Conference Chair
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
@@ -190,7 +261,9 @@ const ORGANIZING_COMMITTEE = [];
         </ul>
       </Fragment>
       <Fragment slot="panel-5">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">Convenor</h3>
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
+          Convenor
+        </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
             CONVENOR.map(({ name, position }) => (
@@ -209,7 +282,9 @@ const ORGANIZING_COMMITTEE = [];
         </ul>
       </Fragment>
       <Fragment slot="panel-6">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">Co-convenor</h3>
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
+          Co-convenor
+        </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
             CO_CONVENOR.map(({ name, position }) => (
@@ -228,7 +303,7 @@ const ORGANIZING_COMMITTEE = [];
         </ul>
       </Fragment>
       <Fragment slot="panel-7">
-        <h3 class="text-2xl font-semibold p-4 mt-4 text-center">
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
           Organizing Committee
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">

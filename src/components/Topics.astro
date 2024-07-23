@@ -1,24 +1,7 @@
 ---
 import Container from "./Container.astro";
 
-const TOPICS = [
-  "AI Applications in Healthcare Management",
-  "Ethical Implications of AI in Scientific Research",
-  "AI-driven Innovations in Business Operations",
-  "AI for Sustainable Development and Environmental Management",
-  "Machine Learning for Financial Forecasting and Risk Management",
-  "Integrating AI in Education and Learning Technologies",
-  "AI-driven Decision Support Systems in Public Policy",
-  "AI-driven Process Optimization in Chemical Engineering",
-  "Machine Learning Applications in Chemical Reaction Engineering",
-  "AI for Predictive Modeling and Simulation in Chemical Processes",
-  "Smart Sensors and IoT Integration in Chemical Manufacturing",
-  "AI-based Control Systems for Process Safety and Reliability",
-  "Data Analytics and AI in Pharmaceutical Manufacturing",
-  "Artificial Intelligence in Environmental Impact Assessment",
-  "AI-driven Materials Design and Development",
-  "Advanced AI Techniques for Chemical Product Design",
-  "Integration of AI with Bioprocess Engineering",
+const SOM_TOPICS = [
   "AI-Driven Decision Making in Management",
   "AI and the Future of Work",
   "AI-driven Economy",
@@ -33,6 +16,38 @@ const TOPICS = [
   "Risk Management and Fraud Detection using AI",
   "Financial Health Monitoring using AI",
 ];
+
+const SOS_TOPICS = [
+  "Ethical Implications of AI in Scientific Research",
+  "AI for Sustainable Development and Environmental Management",
+  "Smart Sensors and IoT Integration in Chemical Manufacturing",
+  "Data Analytics and AI in Pharmaceutical Manufacturing",
+  "Predicting catalyst performance using machine learning",
+  "AI in the design and discovery of new catalytic processes",
+  "AI applications in environmental remediation processes",
+  "AI applications in early disease detection and diagnosis",
+  "Machine learning in the design and optimization of advanced materials",
+  "AI in protein structure prediction and functional analysis",
+  "Machine learning in synthetic biology and genetic engineering",
+  "Machine learning in food safety and quality control",
+  "AI-driven identification of biomarkers for immunotherapy response",
+];
+
+const SOT_TOPICS = [
+  "AI-driven Process Optimization in Chemical Engineering",
+  "Machine Learning Applications in Chemical Reaction Engineering",
+  "AI for Predictive Modeling and Simulation in Chemical Processes",
+  "Advanced AI Techniques for Chemical Product Design",
+  "AI-driven Materials Design and Development",
+  "Integrating AI in Education and Learning Technologies",
+  "Smart Sensors and IoT Integration in Chemical Manufacturing",
+  "AI-based Control Systems for Process Safety and Reliability",
+  "Integration of AI with Bioprocess Engineering",
+  "AI in Robotics and Autonomous Systems",
+  "AI in Cybersecurity and Data Privacy",
+  "AI in Augmented and Virtual Reality",
+  "AI in Predictive Maintenance and Industrial Automation",
+];
 ---
 
 <section id="topics" class="text-center space-y-4">
@@ -42,14 +57,51 @@ const TOPICS = [
     </h1>
 
     <!-- Represnt topics as list -->
-    <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-      {
-        TOPICS.map((topic) => (
-          <li class="py-2 sm:py-3 ">
-            <div class="flex items-center space-x-4">{topic}</div>
-          </li>
-        ))
-      }
-    </ul>
+    <div
+      class="grid grid-cols-1 grid-rows-3 gap-8 my-16 justify-center md:grid-cols-3 md:grid-rows-1"
+    >
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 dark:text-white underline">
+          SoM&LA (AILeaders)
+        </h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            SOM_TOPICS.map((topic) => (
+              <li class="py-2 sm:py-3 ">
+                <div class="flex items-center space-x-4 text-left">{topic}</div>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 dark:text-white underline">
+          SoS (AIFrontiers)
+        </h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            SOS_TOPICS.map((topic) => (
+              <li class="py-2 sm:py-3 ">
+                <div class="flex items-center space-x-4 text-left">{topic}</div>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 dark:text-white underline">
+          SoT (AIFutureTech)
+        </h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            SOT_TOPICS.map((topic) => (
+              <li class="py-2 sm:py-3 ">
+                <div class="flex items-center space-x-4 text-left">{topic}</div>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
   </Container>
 </section>
