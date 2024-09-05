@@ -48,7 +48,7 @@ const ADVISORY_COMMITTEE = [
   },
   {
     name: "Dr. Saurabh Shah",
-    position: "Dean - School of technology, GSFC University, Vadodara",
+    position: "Professor - School of technology, GSFC University, Vadodara",
   },
   {
     name: "Dr. Nishith Parikh",
@@ -123,18 +123,18 @@ const CONFERENCE_CHAIR = [
 const CONVENOR = [
   {
     name: "Dr. Sanjukta Bose Goswami",
-    position: "Associate Dean, Chemical Engineering",
+    position: "Dean - School of Technology",
   },
 ];
 
 const CO_CONVENOR = [
   {
-    name: "Dr. Priya Goel",
-    position: "Assistant Professor, Chemistry",
+    name: "Dr. Jahanvi Bansal",
+    position: "Associate Dean - Research and Development cell",
   },
   {
-    name: "Dr. Jahanvi Bansal",
-    position: "Assistant Professor",
+    name: "Dr. Priya Goel",
+    position: "Assistant Professor, Chemistry",
   },
   {
     name: "Ms. Swati Saxena",
@@ -143,10 +143,6 @@ const CO_CONVENOR = [
 ];
 
 const ORGANIZING_COMMITTEE = [
-  {
-    name: "Mr. J.G Simon",
-    position: "Sr. Manager (System & IT), GSFC University, Vadodara",
-  },
   {
     name: "Dr. Parag Saxena",
     position: "Assistant Professor, GSFC University, Vadodara",
@@ -188,6 +184,27 @@ const ORGANIZING_COMMITTEE = [
     position: "Dy. Manager - Marketing and PR, GSFC University, Vadodara",
   },
 ];
+
+const EDITORIAL_TEAM = [
+  {
+    name: "Prof. G. R Sinha",
+    position: "Vice - Chancellor GSFC University, Vadodara, India",
+  },
+  {
+    name: "Prof. Varun Bajaj",
+    position:
+      "Associate Professor, Maulana Azad National Institute of Technology, Bhopal, India",
+  },
+  {
+    name: "Dr.  Silvia Liberata Ullo",
+    position:
+      "Researcher, Université degli Studi del Sannio di Benevento, Italy",
+  },
+  {
+    name: "Prof. Humaira Nisar",
+    position: "Universiti Tunku Abdul Rahman, Kajang, Malaysia",
+  },
+];
 ---
 
 <section id="committee">
@@ -202,44 +219,51 @@ const ORGANIZING_COMMITTEE = [
     <Tabs class="w-full">
       <Fragment slot="tab-1">
         <h2
-          class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all rounded-l-lg"
+          class="text-lg font-semibold px-4 py-2 border hover:bg-slate-100 transition-all rounded-l-lg"
         >
           Chief Patron
         </h2>
       </Fragment>
       <Fragment slot="tab-2">
         <h2
-          class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
+          class="text-lg font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
           Advisory Committee
         </h2>
       </Fragment>
       <Fragment slot="tab-3">
         <h2
-          class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
+          class="text-lg font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
           Technical Program Committee
         </h2>
       </Fragment>
       <Fragment slot="tab-4">
         <h2
-          class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
+          class="text-lg font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
           Conference Chair
         </h2>
       </Fragment>
       <Fragment slot="tab-5">
         <h2
-          class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
+          class="text-lg font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
           Convenors
         </h2>
       </Fragment>
       <Fragment slot="tab-7">
         <h2
-          class="text-xl font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
+          class="text-lg font-semibold px-4 py-2 border hover:bg-slate-100 transition-all"
         >
           Organizing Committee
+        </h2>
+      </Fragment>
+      <Fragment slot="tab-8">
+        <h2
+          class="text-lg font-semibold px-4 py-2 border hover:bg-slate-100 transition-all rounded-r-lg"
+        >
+          Editorial Team
         </h2>
       </Fragment>
 
@@ -374,6 +398,27 @@ const ORGANIZING_COMMITTEE = [
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
             ORGANIZING_COMMITTEE.map(({ name, position }) => (
+              <li class="py-4 sm:py-5">
+                <div class="flex flex-col items-center">
+                  <p class="text-xl font-medium text-gray-900 dark:text-white">
+                    {name}
+                  </p>
+                  <p class="text-xl text-gray-500 dark:text-gray-400">
+                    {position}
+                  </p>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </Fragment>
+      <Fragment slot="panel-8">
+        <h3 class="text-2xl font-bold p-4 mt-4 text-center text-primary">
+          Editorial Team
+        </h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            EDITORIAL_TEAM.map(({ name, position }) => (
               <li class="py-4 sm:py-5">
                 <div class="flex flex-col items-center">
                   <p class="text-xl font-medium text-gray-900 dark:text-white">
