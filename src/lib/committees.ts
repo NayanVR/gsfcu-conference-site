@@ -85,32 +85,80 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
 
 export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
     {
-        name: "Prof. Amitabh Mishra",
-        position: "Associate Professor, University of West Florida, United States",
+        name: "Prof. Kemal Polat",
+        position: "Electrical and Electronics Engineering, Abant Izzet Baysal University, Turkey"
     },
     {
-        name: "Prof. Maulika Patel",
-        position: "Professor, Head, GCET, VV Vidhyanagar",
+        name: "Dr. Siuly Siuly",
+        position: "Research Fellow, Victoria University, Australia"
+    },
+    {
+        name: "Prof. Şaban Öztürk",
+        position: "Electrical and Electronics Engineering, Bilkent University, Turkey"
+    },
+    {
+        name: "Prof. Xiaohong W. Gao",
+        position: "Department of Computer Science, Middlesex University, London, United Kingdom"
+    },
+    {
+        name: "Prof. Vladan Devedzic",
+        position: "Computer Science, University of Belgrade, Serbia"
+    },
+    {
+        name: "Prof. Fan Zhipeng",
+        position: "System Chipset Communication Chip and Signal Processing Laboratory 716"
+    },
+    {
+        name: "Mr. Herat Joshi",
+        position: "Lead - Analytics & Decision Support, Great River Health System, Iowa, USA"
+    },
+    {
+        name: "Mr. Nitesh Upadhyaya",
+        position: "Solution Architect, GlobalLogic Inc, California, USA"
+    },
+    {
+        name: "Mr. Shenson Joseph",
+        position: "Vice President Data Engineering, JPMorgan Chase & Co., Greater Houston, Texas, USA"
+    },
+    {
+        name: "Dr. Aloknath De",
+        position: "Founder & CEO - TechCrafter.cps, Adjunct Prof - IISc, CTO & CVP (Retd) - Samsung"
+    },
+    {
+        name: "Dr. Amelia Taylor",
+        position: "Data Scientist, Malawi University, Zomba"
+    },
+    {
+        name: "Mr. Anuj Kumar Sareen",
+        position: "Firmware Engineer, XII Medical, California, USA"
+    },
+    {
+        name: "Prof. Amitabh Mishra",
+        position: "Associate Professor, University of West Florida, United States"
+    },
+    {
+        name: "Prof. Ram Bilas Pachori",
+        position: "Department of Electrical Engineering, Indian Institute of Technology Indore, India"
     },
     {
         name: "Prof. K. S. Kasiviswanathan",
-        position: "Associate Professor, Indian Institute of Technology Roorkee",
+        position: "Associate Professor, IIT Roorkee",
     },
     {
-        name: "Prof. Nilesh Bahadure",
-        position: "Professor, GSFC University, Vadodara",
+        name: "Prof. Somitra Kumar Sanadhya",
+        position: "IIT Jodhpur, India"
     },
     {
-        name: "Dr. Saroj Shekhawat",
-        position: "Associate Professor, GSFC University, Vadodara",
+        name: "Prof. Sarat Kumar Patra",
+        position: "Director, NIT Agartala, India"
     },
     {
-        name: "Dr. Akhilesh Prajapati",
-        position: "Associate Professor, GSFC University, Vadodara",
+        name: "Prof. Srinath Srinivasa",
+        position: "IIIT Bangalore, India"
     },
     {
-        name: "Dr. Chandra Has",
-        position: "Associate Professor, GSFC University, Vadodara",
+        name: "Prof. Maulika Patel",
+        position: "Professor, Head, GCET, VV Vidhyanagar"
     },
 ];
 

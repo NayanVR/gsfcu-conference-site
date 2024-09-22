@@ -88,12 +88,12 @@ const CommitteeList = ({ members }: { members: Array<Member> }) => {
   return (
     <ul className="divide-y divide-gray-200 dark:divide-gray-700">
       {members.map(({ name, position }, i) => (
-        <li key={i} className="py-4 sm:py-5">
+        <li key={i} className="py-3 sm:py-4">
           <div className="flex flex-col items-center">
-            <p className="text-xl font-medium text-gray-900 dark:text-white">
+            <p className="text-lg font-medium text-gray-900 dark:text-white">
               {name}
             </p>
-            <p className="text-xl text-gray-500 dark:text-gray-400">
+            <p className="text-md text-gray-500 dark:text-gray-400">
               {position}
             </p>
           </div>
@@ -110,7 +110,7 @@ const TabTitle = ({ title }: { title: string }) => {
 };
 const CommitteeTitle = ({ title }: { title: string }) => {
   return (
-    <h2 className="text-2xl font-bold p-4 mt-4 text-center text-primary">
+    <h2 className="text-2xl font-bold p-4 mt-4 text-center text-info">
       {title}
     </h2>
   );
