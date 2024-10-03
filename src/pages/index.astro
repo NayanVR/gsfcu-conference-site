@@ -9,18 +9,22 @@ import Registration from '@/components/Registration.astro';
 import Speakers from '@/components/Speakers.astro';
 import Topics from '@/components/Topics.astro';
 import Venue from '@/components/Venue.astro';
+import AuthorsGuidelines from '@/components/AuthorsGuidelines.astro';
+import CallForReviewers from '@/components/CallForReviewers.astro';
 ---
 
 <Layout title="GSFCU - ICON-AI-SMT'25">
 	<main class="space-y-24">
 		<HeroSection />
 		<About />
-		<CommitteeSection client:load/>
 		<Speakers />
 		<Topics />
+		<AuthorsGuidelines />
+		<Publication />
+		<CommitteeSection client:load/>
 		<ImportantDates />
 		<Registration />
-		<Publication />
+		<CallForReviewers />
 		<Venue />
 	</main>
 </Layout>

@@ -1,94 +1,49 @@
 ---
 import Container from "./ui/Container.astro";
 
-const SOM_TOPICS = [
-  "AI-Driven Decision Making in Management",
-  "AI and the Future of Work",
-  "AI-driven Economy",
-  "Generative AI in Education, Creativity, and Ideation",
-  "AI Ethics, Bias, and Discrimination",
-  "Economics of Artificial Intelligence",
-  "Identifying Fake Reviews, Posts, and Accounts",
-  "Chatbot Marketing",
-  "AI for Customer Relationship Management",
-  "AI-Generated Financial Forecasting",
-  "Customized Training Programs with Generative AI",
-  "Risk Management and Fraud Detection using AI",
-  "Financial Health Monitoring using AI",
+const TRACK_ONE = [
+  "Artificial Intelligence",
+  "Deep Learning",
+  "Machine Learning",
+  "Video, Speech & Text Processing using AI",
 ];
 
-const SOS_TOPICS = [
-  "Ethical Implications of AI in Scientific Research",
-  "AI for Sustainable Development and Environmental Management",
-  "Smart Sensors and IoT Integration in Chemical Manufacturing",
-  "Data Analytics and AI in Pharmaceutical Manufacturing",
+const TRACK_TWO = [
+  "Data Analytics",
+  "AI in Pharmaceutical Manufacturing",
   "Predicting catalyst performance using machine learning",
-  "AI in the design and discovery of new catalytic processes",
-  "AI applications in environmental remediation processes",
   "AI applications in early disease detection and diagnosis",
-  "Machine learning in the design and optimization of advanced materials",
-  "AI in protein structure prediction and functional analysis",
-  "Machine learning in synthetic biology and genetic engineering",
-  "Machine learning in food safety and quality control",
-  "AI-driven identification of biomarkers for immunotherapy response",
+  "AI in Nano Technology",
 ];
 
-const SOT_TOPICS = [
-  "AI-driven Process Optimization in Chemical Engineering",
-  "Machine Learning Applications in Chemical Reaction Engineering",
-  "AI for Predictive Modeling and Simulation in Chemical Processes",
-  "Advanced AI Techniques for Chemical Product Design",
-  "AI-driven Materials Design and Development",
-  "Integrating AI in Education and Learning Technologies",
-  "Smart Sensors and IoT Integration in Chemical Manufacturing",
-  "AI-based Control Systems for Process Safety and Reliability",
-  "Integration of AI with Bioprocess Engineering",
-  "AI in Robotics and Autonomous Systems",
-  "AI in Cybersecurity and Data Privacy",
-  "AI in Augmented and Virtual Reality",
-  "AI in Predictive Maintenance and Industrial Automation",
-];
-
-const TOPICS = [
-  "AI in Healthcare, Biomedical Applications, Robotics & Automation Applications",
-  "Cybersecurity and Data Privacy",
-  "Human Computer Interactions and Applications",
-  "Ethics and Social Implications of AI",
-  "AI in Chemical Engineering & Process Optimization, Environmental & Sustainable Development, and Bioprocess Engineering & Biotechnology Applications",
-  "AI in Finance & Economics, Marketing & Communication, Business Transformation, Management and Decision Making",
+const TRACK_THREE = [
+  "Ethics in AI",
+  "AI in Business Analytics",
+  "AI for Optimization and automation",
+  "AI in Decision  Making Strategic and Planning"
 ];
 ---
 
 <section id="topics" class="text-center space-y-4">
   <Container>
     <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
-      Topics
+      Call For Papers
     </h1>
 
+    <p class="my-8">
+      We warmly invite prospective authors to submit high-quality research papers featuring original, unpublished findings from conceptual, constructive, empirical, experimental, or theoretical work across all areas of Intelligent Computing and AI Systems, AI in Scientific Research and Innovation and AI Powered Business Intelligence. The topics covered include the following (but are not limited to these). 
+    </p>
+
     <div
-      class="grid grid-cols-1 grid-rows-1 gap-8 my-16 justify-center md:grid-cols-1 md:grid-rows-1"
+      class="grid grid-cols-1 grid-rows-1 gap-8 my-16 justify-center md:grid-cols-3 md:grid-rows-1"
     >
-      <!-- <div>
-        <h3 class="text-2xl font-bold text-gray-800 dark:text-white underline">
-          AI Leaders
-        </h3> -->
-      <ul class="divide-y divide-gray-200 dark:divide-gray-700">
-        {
-          TOPICS.map((topic) => (
-            <li class="py-2 sm:py-3 ">
-              <div class="flex items-center space-x-4 text-left">{topic}</div>
-            </li>
-          ))
-        }
-      </ul>
-      <!-- </div>
       <div>
         <h3 class="text-2xl font-bold text-gray-800 dark:text-white underline">
-          AI Frontiers
+          Intelligent Computing and AI System
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
-            SOS_TOPICS.map((topic) => (
+            TRACK_ONE.map((topic) => (
               <li class="py-2 sm:py-3 ">
                 <div class="flex items-center space-x-4 text-left">{topic}</div>
               </li>
@@ -98,18 +53,32 @@ const TOPICS = [
       </div>
       <div>
         <h3 class="text-2xl font-bold text-gray-800 dark:text-white underline">
-          AI Future Tech
+          AI in Scientific Research and Innovation
         </h3>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700">
           {
-            SOT_TOPICS.map((topic) => (
+            TRACK_TWO.map((topic) => (
               <li class="py-2 sm:py-3 ">
                 <div class="flex items-center space-x-4 text-left">{topic}</div>
               </li>
             ))
           }
         </ul>
-      </div> -->
+      </div>
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 dark:text-white underline">
+          AI Powered Business Intelligence
+        </h3>
+        <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+          {
+            TRACK_THREE.map((topic) => (
+              <li class="py-2 sm:py-3 ">
+                <div class="flex items-center space-x-4 text-left">{topic}</div>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
     </div>
 
     <p class="text-lg text-center font-medium">

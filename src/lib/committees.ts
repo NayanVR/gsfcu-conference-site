@@ -254,3 +254,14 @@ export const EDITORIAL_TEAM: Array<Member> = [
         position: "Universiti Tunku Abdul Rahman, Kajang, Malaysia",
     },
 ];
+
+export const WEB_COMMITTEE: Array<Member> = [
+    {
+        name: "Nayan Radadiya",
+        position: "GSFC University, Vadodara, India",
+    },
+    {
+        name: "Yashasvi Virani",
+        position: "GSFC University, Vadodara, India",
+    }
+];
