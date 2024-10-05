@@ -41,15 +41,11 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
     },
     {
         name: "Mr. Bimal B Bhayani",
-        position: "Professor of Practice cum Advisor, GSFC University, Vadodara",
+        position: "Professor of Practice cum Advisor, CEO - GUIITAR Council, GSFC University, Vadodara",
     },
     {
         name: "Mr. Naren Acharya",
         position: "Assistant Director, GSFC University, Vadodara",
-    },
-    {
-        name: "Dr. Saurabh Shah",
-        position: "Professor - School of technology, GSFC University, Vadodara",
     },
     {
         name: "Dr. Nishith Parikh",
@@ -61,25 +57,12 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
             "Dean of Student Activities and Alumni Interaction Cell, GSFC University, Vadodara",
     },
     {
-        name: "Dr. Devjani Banerjee",
-        position:
-            "Associate Dean-Dept. of Life Sciences, GSFC University, Vadodara",
+        name: "Dr. Aloknath De",
+        position: "Founder & CEO - TechCrafter.cps, Adjunct Prof - IISc, CTO & CVP (Retd) - Samsung"
     },
     {
-        name: "Dr. Chetna Parmar",
-        position: "Associate Dean - BBA, GSFC University, Vadodara",
-    },
-    {
-        name: "Dr. Abha Kalaiya",
-        position: "Associate Dean - MBA, GSFC University, Vadodara",
-    },
-    {
-        name: "Mr. A. Srikrishnan",
-        position: "Associate Dean(Fire & EHS), GSFC University, Vadodara",
-    },
-    {
-        name: "Ms. Neha Pujara",
-        position: "Associate Dean of (DOST-AI) Cell, GSFC University, Vadodara",
+	name: "Mr. Maulik Bhansali",
+	position: "CEO - Netweb Software, Vadodara"
     },
 ];
 
@@ -119,10 +102,6 @@ export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
     {
         name: "Mr. Shenson Joseph",
         position: "Vice President Data Engineering, JPMorgan Chase & Co., Greater Houston, Texas, USA"
-    },
-    {
-        name: "Dr. Aloknath De",
-        position: "Founder & CEO - TechCrafter.cps, Adjunct Prof - IISc, CTO & CVP (Retd) - Samsung"
     },
     {
         name: "Dr. Amelia Taylor",
@@ -165,7 +144,7 @@ export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
 export const CONFERENCE_CHAIR: Array<Member> = [
     {
         name: "Dr. G. R Sinha ",
-        position: "Provost",
+        position: "Provost, GSFC University, Vadodara",
     },
 ];
 
@@ -179,7 +158,7 @@ export const CONVENORS: Array<Member> = [
 export const CO_CONVENORS: Array<Member> = [
     {
         name: "Dr. Jahanvi Bansal",
-        position: "Associate Dean - Research and Development cell",
+        position: "Associate Dean - Sponsored Research and Industry Consultancy (SRIC) cell",
     },
     {
         name: "Dr. Priya Goel",
@@ -237,7 +216,7 @@ export const ORGANIZING_COMMITTEE: Array<Member> = [
 export const EDITORIAL_TEAM: Array<Member> = [
     {
         name: "Prof. G. R Sinha",
-        position: "Vice - Chancellor GSFC University, Vadodara, India",
+        position: "Provost, GSFC University, Vadodara, India",
     },
     {
         name: "Prof. Varun Bajaj",
@@ -257,11 +236,11 @@ export const EDITORIAL_TEAM: Array<Member> = [
 
 export const WEB_COMMITTEE: Array<Member> = [
     {
-        name: "Nayan Radadiya",
+        name: "Mr. Nayan Radadiya",
         position: "GSFC University, Vadodara, India",
     },
     {
-        name: "Yashasvi Virani",
+        name: "Ms. Yashasvi Virani",
         position: "GSFC University, Vadodara, India",
     }
 ];
