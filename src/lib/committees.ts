@@ -192,11 +192,11 @@ export const ORGANIZING_COMMITTEE: Array<Member> = [
         position: "Assistant Professor, GSFC University, Vadodara",
     },
     {
-        name: "Ms. Mousam Patel",
+        name: "Ms. Mosam Patel",
         position: "Assistant Professor, GSFC University, Vadodara",
     },
     {
-        name: "Ms. Archana Magre",
+        name: "Ms. Archana Magare",
         position: "Assistant Professor, GSFC University, Vadodara",
     },
     {
