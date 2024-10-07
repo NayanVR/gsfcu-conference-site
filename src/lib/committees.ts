@@ -6,7 +6,7 @@ export type Member = {
 export const CHIEF_PATRON: Array<Member> = [
     {
         name: "Shri. P. K Taneja",
-        position: "Rtd. IAS",
+        position: "Rtd. IAS, President GSFC University",
     },
 ];
 
@@ -32,6 +32,10 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
         position: "Associate Professor, SVNIT, Surat",
     },
     {
+        name: "Dr. Aloknath De",
+        position: "Founder & CEO - TechCrafter.cps, Adjunct Prof - IISc, CTO & CVP (Retd) - Samsung"
+    },
+    {
         name: "Mr. Ramesh B. Panchal",
         position: "Director (Administration), GSFC University, Vadodara",
     },
@@ -53,17 +57,13 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
     },
     {
         name: "Dr. K. Santhosh Kumar",
-        position:
-            "Dean of Student Activities and Alumni Interaction Cell, GSFC University, Vadodara",
+        position:"Dean of Student Activities and Alumni Interaction Cell, GSFC University, Vadodara",
     },
     {
-        name: "Dr. Aloknath De",
-        position: "Founder & CEO - TechCrafter.cps, Adjunct Prof - IISc, CTO & CVP (Retd) - Samsung"
+        name: "Ms. Neha Pujara",
+        position:"Associate Dean DOST-AI, GSFC University"
     },
-    {
-	name: "Mr. Maulik Bhansali",
-	position: "CEO - Netweb Software, Vadodara"
-    },
+
 ];
 
 export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
@@ -143,7 +143,7 @@ export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
 
 export const CONFERENCE_CHAIR: Array<Member> = [
     {
-        name: "Dr. G. R Sinha ",
+        name: "Prof. G. R Sinha ",
         position: "Provost, GSFC University, Vadodara",
     },
 ];
@@ -162,7 +162,7 @@ export const CO_CONVENORS: Array<Member> = [
     },
     {
         name: "Dr. Priya Goel",
-        position: "Assistant Professor, Chemistry",
+        position: "Assistant Professor, Chemical Science",
     },
     {
         name: "Ms. Swati Saxena",
@@ -172,7 +172,7 @@ export const CO_CONVENORS: Array<Member> = [
 
 export const ORGANIZING_COMMITTEE: Array<Member> = [
     {
-        name: "Dr. Parag Saxena",
+        name: "Dr. Chandra Has",
         position: "Assistant Professor, GSFC University, Vadodara",
     },
     {
