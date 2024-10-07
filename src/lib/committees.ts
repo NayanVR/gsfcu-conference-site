@@ -200,7 +200,7 @@ export const ORGANIZING_COMMITTEE: Array<Member> = [
         position: "Assistant Professor, GSFC University, Vadodara",
     },
     {
-        name: "Ms. Zalak Kansagara",
+        name: "Ms. Zalak Kansagra",
         position: "Assistant Professor, GSFC University, Vadodara",
     },
     {
