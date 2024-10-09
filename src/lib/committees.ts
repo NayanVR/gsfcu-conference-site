@@ -6,13 +6,13 @@ export type Member = {
 export const CHIEF_PATRON: Array<Member> = [
     {
         name: "Shri. P. K Taneja",
-        position: "Rtd. IAS, President GSFC University",
+        position: "IAS Rtd., President GSFC University",
     },
 ];
 
 export const ADVISORY_COMMITTEE: Array<Member> = [
     {
-        name: "Prof. (DR.) MANOJ CHOUDHARY",
+        name: "Prof. (DR.) Manoj Choudhary",
         position: "Vice Chancellor, Gati Shakti Vishwavidyalaya (GSV), Vadodara",
     },
     {
@@ -45,7 +45,7 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
     },
     {
         name: "Mr. Bimal B Bhayani",
-        position: "Professor of Practice cum Advisor, CEO - GUIITAR Council, GSFC University, Vadodara",
+        position: "CEO - GUIITAR Council, GSFC University, Vadodara",
     },
     {
         name: "Mr. Naren Acharya",
@@ -61,7 +61,7 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
     },
     {
         name: "Ms. Neha Pujara",
-        position:"Associate Dean DOST-AI, GSFC University"
+        position:"Associate Dean of Student Activities and Alumni Interaction (DOST-AI), GSFC University"
     },
 
 ];
@@ -70,10 +70,6 @@ export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
     {
         name: "Prof. Kemal Polat",
         position: "Electrical and Electronics Engineering, Abant Izzet Baysal University, Turkey"
-    },
-    {
-        name: "Dr. Siuly Siuly",
-        position: "Research Fellow, Victoria University, Australia"
     },
     {
         name: "Prof. Şaban Öztürk",
@@ -116,12 +112,12 @@ export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
         position: "Associate Professor, University of West Florida, United States"
     },
     {
-        name: "Prof. Ram Bilas Pachori",
-        position: "Department of Electrical Engineering, Indian Institute of Technology Indore, India"
+        name: "Dr. Siuly Siuly",
+        position: "Research Fellow, Victoria University, Australia"
     },
     {
-        name: "Prof. K. S. Kasiviswanathan",
-        position: "Associate Professor, IIT Roorkee",
+        name: "Prof. Ram Bilas Pachori",
+        position: "Department of Electrical Engineering, Indian Institute of Technology Indore, India"
     },
     {
         name: "Prof. Somitra Kumar Sanadhya",
@@ -138,6 +134,10 @@ export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
     {
         name: "Prof. Maulika Patel",
         position: "Professor, Head, GCET, VV Vidhyanagar"
+    },
+    {
+        name: "Prof. K. S. Kasiviswanathan",
+        position: "Associate Professor, IIT Roorkee",
     },
 ];
 
@@ -158,7 +158,7 @@ export const CONVENORS: Array<Member> = [
 export const CO_CONVENORS: Array<Member> = [
     {
         name: "Dr. Jahanvi Bansal",
-        position: "Associate Dean - Sponsored Research and Industry Consultancy (SRIC) cell",
+        position: "Associate Dean - Research and Development Cell",
     },
     {
         name: "Dr. Priya Goel",
