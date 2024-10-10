@@ -49,7 +49,7 @@ export const ADVISORY_COMMITTEE: Array<Member> = [
     },
     {
         name: "Dr. K. Santhosh Kumar",
-        position: "Dean of Student Activities and Alumni Interaction Cell, GSFC University, Vadodara",
+        position: "Dean, Student Activities and Alumni Interaction Cell (DOST-AI), GSFC University, Vadodara",
     },
 ];
 
@@ -160,55 +160,55 @@ export const CO_CONVENORS: Array<Member> = [
 export const ORGANIZING_COMMITTEE: Array<Member> = [
     {
         name: "Mr. Mahesh Barot",
-        position: "Dy. Director - Administration, GSFC University, Vadodara",
+        position: "Dy. Director - Administration",
     },
     {
         name: "Mr. Naren Acharya",
-        position: "Assistant Director, GSFC University, Vadodara",
+        position: "Assistant Director",
     },
     {
         name: "Ms. Neha Pujara",
-        position: "Associate Dean of Student Activities and Alumni Interaction (DOST-AI), GSFC University"
+        position: "Associate Dean, Student Activities and Alumni Interaction (DOST-AI)"
     },
     {
         name: "Dr. Chandra Has",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Dr. Naznin Pathan",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Dr. Sindhura G",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Dr. Shilpa Parmar",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Dr. Jignesh Valand",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Ms. Mosam Patel",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Ms. Archana Magare",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Ms. Zalak Kansagra",
-        position: "Assistant Professor, GSFC University, Vadodara",
+        position: "Assistant Professor",
     },
     {
         name: "Ms. Dharti Patel",
-        position: "Manager Facility, GSFC University, Vadodara",
+        position: "Manager Facility",
     },
     {
         name: "Ms. Sachiyanka Shrivastava",
-        position: "Dy. Manager - Marketing and PR, GSFC University, Vadodara",
+        position: "Dy. Manager - Marketing and PR",
     },
 ];
 

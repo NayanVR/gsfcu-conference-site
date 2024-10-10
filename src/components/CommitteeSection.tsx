@@ -77,6 +77,9 @@ const CommitteeSection = () => {
           <TabsContent value="organizing-committee">
             <CommitteeTitle title="Organizing Committee" />
             <CommitteeList members={ORGANIZING_COMMITTEE} />
+            <p className="text-center">
+              (All the above are from GSFC Universty, Vadodara)
+            </p>
           </TabsContent>
           <TabsContent value="editorial-team">
             <CommitteeTitle title="Editorial Team" />
