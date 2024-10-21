@@ -183,7 +183,7 @@ export const ORGANIZING_COMMITTEE: Array<Member> = [
         position: "Assistant Professor",
     },
     {
-        name: "Dr. Shilpa Parmar",
+        name: "Dr. Shilpa Gamit",
         position: "Assistant Professor",
     },
     {
