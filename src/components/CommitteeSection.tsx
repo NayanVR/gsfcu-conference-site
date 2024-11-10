@@ -116,9 +116,12 @@ const CommitteeList = ({ members }: { members: Array<Member> }) => {
 
 const TabTitle = ({ title }: { title: string }) => {
   return (
-    <h2 className="text-lg font-semibold px-4 py-2 transition-all">{title}</h2>
+    <h2 className="text-md md:text-lg font-semibold md:px-4 md:py-2 px-1 transition-all">
+      {title}
+    </h2>
   );
 };
+
 const CommitteeTitle = ({ title }: { title: string }) => {
   return (
     <h2 className="text-2xl font-bold p-4 mt-4 text-center text-info">
