@@ -63,6 +63,10 @@ export const TECHNICAL_PROGRAM_COMMITTEE: Array<Member> = [
         position: "Middlesex University, London, UK"
     },
     {
+        name: "Prof. Anand Nayyar",
+        position: "Assistant Professor, Scientist, Vice President (Research), Director - Intelligent Systems and IoT Laboratory, Duy Tan University, Vietnam"
+    },
+    {
         name: "Prof. Kemal Polat",
         position: "Abant Izzet Baysal University, Turkey"
     },
