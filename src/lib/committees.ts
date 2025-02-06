@@ -207,6 +207,10 @@ export const ORGANIZING_COMMITTEE: Array<Member> = [
         position: "Assistant Professor",
     },
     {
+        name: "Mr. Ishan Rajani",
+        position: "Assistant Professor",
+    },
+    {
         name: "Ms. Dharti Patel",
         position: "Manager Facility",
     },
