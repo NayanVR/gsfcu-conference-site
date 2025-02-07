@@ -1,5 +1,6 @@
 ---
 import Container from "./ui/Container.astro";
+import Link from "./ui/Link.astro";
 ---
 
 <Container>
@@ -32,7 +33,8 @@ import Container from "./ui/Container.astro";
         <tbody>
           <tr>
             <td class="border px-4 py-2"
-              >Students (UG/PG) & Research Scholars</td>
+              >Students (UG/PG) & Research Scholars</td
+            >
             <td class="border px-4 py-2">INR 3000</td>
           </tr>
           <tr>
@@ -40,19 +42,27 @@ import Container from "./ui/Container.astro";
             <td class="border px-4 py-2">INR 7000</td>
           </tr>
           <tr>
-            <td class="border px-4 py-2">Authors, outside India (by Affiliation)</td>
+            <td class="border px-4 py-2"
+              >Authors, outside India (by Affiliation)</td
+            >
             <td class="border px-4 py-2">USD 200</td>
           </tr>
           <tr>
-            <td class="border px-4 py-2">Students (UG/PG) and Research Scholars (Without Paper)</td>
+            <td class="border px-4 py-2"
+              >Students (UG/PG) and Research Scholars (Without Paper)</td
+            >
             <td class="border px-4 py-2">INR 750</td>
           </tr>
           <tr>
-            <td class="border px-4 py-2">Academicians and Industry Delegates (Without Paper)</td>
+            <td class="border px-4 py-2"
+              >Academicians and Industry Delegates (Without Paper)</td
+            >
             <td class="border px-4 py-2">INR 1500</td>
           </tr>
           <tr>
-            <td class="border px-4 py-2">Participants, outside India (by Affiliation) (Without Paper)</td>
+            <td class="border px-4 py-2"
+              >Participants, outside India (by Affiliation) (Without Paper)</td
+            >
             <td class="border px-4 py-2">USD 100</td>
           </tr>
           <tr>
@@ -72,6 +82,15 @@ import Container from "./ui/Container.astro";
           </p>
         </a>
       </div> -->
+    </div>
+
+    <h1 class="text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+      Attendee Registration Link
+    </h1>
+    <div class="text-center text-md md:text-lg">
+      <Link href="https://forms.gle/DdY3taCH33thQveFA"
+        >https://forms.gle/DdY3taCH33thQveFA</Link
+      >
     </div>
   </section>
 </Container>
