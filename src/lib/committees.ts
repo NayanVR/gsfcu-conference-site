@@ -237,6 +237,10 @@ export const EDITORIAL_TEAM: Array<Member> = [
         name: "Prof. Humaira Nisar",
         position: "Universiti Tunku Abdul Rahman, Kajang, Malaysia",
     },
+    {
+        name: "Prof. C P Fan",
+        position: "National Chung Hsing University, Taiwan",
+    }
 ];
 
 export const WEB_COMMITTEE: Array<Member> = [
